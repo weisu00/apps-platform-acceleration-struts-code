@@ -28,6 +28,7 @@ limitations under the License.
     <decorator:head/>
 </head>
 <body>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <div id='page'>
     <div id='header'><a href="addUserForm.action">Add User</a>
         | <a href="findUserForm.action">Find User</a>
